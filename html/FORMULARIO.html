@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>FORMULARIO</title>
+<link href="../css/style_pages.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>FORMULARIO</h1>
+</header>
+<nav>
+	
+<ul id="navegacionaudio">
+				<li><a href="IMAGENES.html">IMAGENES</a></li>
+			<li><a href="Enlaces.html">ENLACES&nbsp;</a></li>
+			<li><a href="Formatos de texto.html">FORMATOS</a>&nbsp;</li>
+			<li><a href="Listas2.html">LISTAS</a></li>
+			<li><a href="TABLAS.html">TABLAS</a>&nbsp;</li>
+		  <li><a href="audio.html">AUDIO</a>&nbsp;</li>
+		  <li><a href="VIDEO.html">VIDEO</a></li>
+		  <li><a href="../index.html">INICIO</a>&nbsp;</li>
+  </ul>
+	
+	
+	</nav>
+<footer>
+  <main>
+    <section>
+      <h2>Formulario 1&nbsp;</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates laborum, tempore maiores asperiores distinctio fugiat repudiandae, numquam enim dolore dignissimos voluptatum, blanditiis sint dolor facere, error praesentium cupiditate labore. Consectetur voluptatibus minus fugiat officia laudantium?</p>
+      <form id="form1" name="form1" method="get" action="Formatos de texto.html"<>
+        <label for="nombre">Nombre:&nbsp;</label>
+        <input type="text" name="nombre" id="nombre">
+        <label for="Apellido">Apellido:</label>
+        <input type="text" name="Apellido" id="Apellido">
+        <input type="submit" name="submit" id="submit" value="Enviar">
+      </form>
+    </section>
+<section>
+      <h2>Formulario con radiobutton&nbsp; &nbsp;</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates laborum, tempore maiores asperiores distinctio fugiat repudiandae, numquam enim dolore dignissimos voluptatum, blanditiis sint dolor facere, error praesentium cupiditate labore. Consectetur voluptatibus minus fugiat officia laudantium?</p>
+<form action="procesamiento.html" method="post" name="form1" id="form2">
+  <table width="200" class="celda_centrada">
+         <label>
+      &nbsp;&nbsp;¿Cuál es tu género?&nbsp;</label>
+   <br>
+	  <tr>
+            <td><label>
+              <input type="radio" name="genero" value="Femenino" id="genero_0">
+              Femenino</label></td>
+          </tr>
+          <tr>
+            <td><label>
+              <input type="radio" name="genero" value="Maculino" id="genero_1">
+              Masculino</label></td>
+          </tr>
+        </table>
+  <label for="select">¿De qué país nos visitas?&nbsp; &nbsp;</label>
+  <select name="select" id="pais">
+    <option value="MX">México</option>
+    <option value="AG">Argentina</option>
+    <option value="IT">Italia</option>
+    <option value="EUA">Estados Unidos</option>
+  </select>
+	<br>
+	
+  <p>
+    <label>
+      &nbsp;&nbsp;¿Dondé residiras durante tu estancia en el país?&nbsp;<br>
+    </label>
+   <br>
+	  <label>
+      <input type="checkbox" name="RESIDENCIA_TEMPORAL" value="domicilio_particular" id="RESIDENCIA_TEMPORAL_0">
+      Casa de un amigo</label>
+<br>
+    <label>
+      <input type="checkbox" name="RESIDENCIA_TEMPORAL" value="Hotel" id="RESIDENCIA_TEMPORAL_1">
+      Hotel</label>
+    <br>
+    <label>
+      <input type="checkbox" name="RESIDENCIA_TEMPORAL" value="Airbnb" id="RESIDENCIA_TEMPORAL_2">
+      Airbnb</label>
+    <br>
+	  
+</p>
+<input name="submit2" type="submit" id="submit2" formmethod="GET" value="Enviar">
+</form>
+<form id="form1" name="form1" method="get" action="Formatos de texto.html"<>
+      </form>
+    </section>
+    <section>
+      <h2>Formulario de reserva (utilizando 5 imput diferents)&nbsp; &nbsp; &nbsp;&nbsp;</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates laborum, tempore maiores asperiores distinctio fugiat repudiandae, numquam enim dolore dignissimos voluptatum, blanditiis sint dolor facere, error praesentium cupiditate labore. Consectetur voluptatibus minus fugiat officia laudantium?</p>
+      <form id="form3" name="form3" method="post">
+		  
+<form action="/action_page.php">
+  <label for="phone">Ingresa un número de teléfono:</label>
+  <br>
+  <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+	<br>
+	
+<form action="/action_page.php">
+	<br>
+  <label for="week">Selecione el la semana de reservación&nbsp;</label>
+	<br>
+  <input type="week" id="week" name="week">
+	<br>
+  <br>
+		<form action="/action_page.php">
+  <label for="appt">Selecione la hora de entrada&nbsp; :</label>
+  <input type="time" id="appt" name="appt">
+<br>
+			<p>Escriba una opinión.</p>
+	<form action="/action_page.php">
+  <textarea name="message" rows="20" cols="30">comenatario</textarea>
+		<br>
+		  <input name="submit3" type="submit" id="submit3" formaction="procesamiento.html" formmethod="GET" value="Enviar">
+		<input type="reset" id="reset">
+</form>
+<form id="form1" name="form1" method="get" action="Formatos de texto.html"<>
+
+      </form>
+    </section>
+    <section>
+      <h2>Formulario de contacto</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates laborum, tempore maiores asperiores distinctio fugiat repudiandae, numquam enim dolore dignissimos voluptatum, blanditiis sint dolor facere, error praesentium cupiditate labore. Consectetur voluptatibus minus fugiat officia laudantium?</p>
+      <form id="form4" name="form3" method="post">
+        <br>
+        <label for="email">Email:</label>
+		  <br>
+        <input type="email" name="email" id="email">
+        <br>
+        <br>
+        <label for="textarea">Comentario:</label>
+		 <br>
+		 <br>
+        <textarea name="textarea" maxlength="30" id="textarea">   Escribe aqui tu mensaje...</textarea>
+		  <br>
+		  <br>
+        <input name="submit4" type="submit" id="boton4" formaction="procesamiento.html" formmethod="GET" value="Enviar">
+        
+  
+      </form>
+<form id="form1" name="form1" method="get" action="Formatos de texto.html"<>
+      
+</form>
+    </section>
+  </main>
+  <h6>Elaborado por Mariana Ursulo Becerra&nbsp;</h6>
+</footer>
+</body>
+</html>
